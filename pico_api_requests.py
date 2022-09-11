@@ -2,8 +2,8 @@ import time
 import network
 import urequests as requests
 
-ssid = 'BCAJ_Val'
-password = '29193119'
+ssid = '<SSID>'
+password = '<PASS>'
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
